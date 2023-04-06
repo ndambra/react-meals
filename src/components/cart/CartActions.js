@@ -1,14 +1,15 @@
 import './CartActions.css';
 import useCart from '../../hooks/use-cart';
 
-const CartActions = ({ handleClose }) => {
+const CartActions = ({ onCloseCart, onOrder }) => {
   const { items } = useCart().cartContext;
 
   const handleCloseClick = () => {
-    handleClose();
+    onCloseCart();
   };
 
   const handleOrderClick = () => {
+    onOrder();
     console.log('Ordering...!!');
   };
   return (

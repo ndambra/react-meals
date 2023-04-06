@@ -1,9 +1,8 @@
 import './CartList.css';
-import useCart from '../../hooks/use-cart';
 import CartItem from './CartItem';
 
-const CartList = () => {
-  const { items, totalAmount, addItem, removeItem } = useCart().cartContext;
+const CartList = ({ cart }) => {
+  const { items, totalAmount, addItem, removeItem } = cart;
   const totalPrice = totalAmount.toFixed(2);
 
   const handleAddItem = (item) => {

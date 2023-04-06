@@ -14,6 +14,7 @@ const MealItemForm = ({ id, onAddMeal }) => {
     <form className='form' onSubmit={handleSubmit}>
       <Input
         ref={qtyRef}
+        className='input'
         label='Qty'
         id={'amount_' + id}
         type='number'

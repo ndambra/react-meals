@@ -1,0 +1,72 @@
+.checkout-form {
+  margin: 1rem 0;
+  overflow: auto;
+}
+
+.checkout-control {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.checkout-control label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.checkout-control input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.checkout-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.2rem;
+}
+
+.checkout-actions p {
+  font-weight: bold;
+}
+
+.checkout-actions .error {
+  color: red;
+}
+
+.checkout-actions button {
+  font: inherit;
+  color: #5a1a01;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+}
+
+.checkout-actions button:hover,
+.checkout-actions button:active {
+  background-color: #ffe6dc;
+}
+
+.checkout-actions .checkout-submit {
+  border: 1px solid #5a1a01;
+  background-color: #5a1a01;
+  color: white;
+}
+
+.checkout-actions .checkout-submit:hover,
+.checkout-actions .checkout-submit:active {
+  background-color: #7a2706;
+}
+
+.checkout-invalid label {
+  color: #ca3e51;
+}
+
+.checkout-invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}

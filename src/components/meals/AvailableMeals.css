@@ -4,6 +4,11 @@
   margin: 2rem auto;
   animation: meals-appear 1s ease-out forwards;
 }
+.meals .card p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
 
 .meals ul {
   list-style: none;
