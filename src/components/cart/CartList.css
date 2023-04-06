@@ -1,0 +1,21 @@
+.cart-list p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom: 2px solid #8a2b06;
+  padding: 0 0 1rem;
+}
+.cart-list .cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-list-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
